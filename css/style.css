@@ -1,0 +1,385 @@
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin:0 auto; padding:0;
+    list-style:none;
+    box-sizing:border-box;
+    color:#333333;
+}
+a{
+    color:inherit; text-decoration: none;
+}
+
+.w100 {
+    width:100%;
+}
+
+
+
+/* 공통 */
+.cir {
+    width: 10px;
+    height: 10px;
+    background-color: #456268;
+    border-radius: 50%;
+}
+
+.wrap {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom:30px;
+}
+
+.text {
+    font-size: 20px;
+    color:#456268;
+    font-family:'GmarketSansMedium';
+}
+
+.big {
+    font-size:25px;
+    width: 250px;
+}
+
+.btnarea {
+    margin: 30px 0;
+}
+
+.btn {
+    width: 710px;
+    height: 65px;
+    border-radius: 20px;
+    background-color:#060919;
+    outline: 0;
+    border:0;
+    font-size: 35px;
+    color:#fff;
+    text-align: center;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+
+/*  */
+#header {
+    
+}
+
+#nav {
+    position: fixed;
+    display: flex;
+    margin: 0 360px;
+    padding-right:20px;
+    justify-content: flex-end;
+    gap: 77px;
+    width: 1200px;
+    height: 100px;
+    align-items: center;
+    font-size:20px;
+    font-family: 'Roboto', sans-serif;
+    z-index: 2px;
+}
+
+#nav > div > a {
+    color:#599995;
+}
+
+.home {
+    width:100%; height:1080px;
+    background-image: url(/images/main.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+}
+
+.title {
+    position: absolute;
+    height: 250px;
+    width: 950px;
+    top: 500px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+}
+
+.title span {
+    display: block;
+    color: #fff;
+    margin: 15px 0;
+}
+
+.title .name {
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-style:italic;
+}
+
+.title .welcome {
+    font-size: 80px;
+    font-family: 'Playball', cursive;
+}
+
+.title .job {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main {
+    width:100%; height:3240px;
+    background-image: url(/images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about {
+    width:100%; height:1080px;
+    position: relative;
+    /* background-color: royalblue; */
+}
+
+.card {
+    width:1200px; height:850px;
+    background-color:#f5f5f5;
+    position: absolute;
+    top: 100px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    box-shadow: 10px 10px 10px 10px gray ;
+}
+
+.title_about {
+    width: 100%; height: 120px; 
+    /* background-color: aqua; */
+}
+
+.title_about .about_name {
+    font-size: 58px;
+    font-family: 'Playball', cursive;
+    text-align: center;
+    padding-left: 30px;
+    line-height: 120px;
+    color:#456268;
+}
+
+.title2 {
+    width: 100%; height: 730px; 
+    display: flex;
+}
+
+.title_left {
+    width: 480px; height: 730px; 
+    /* background-color: green; */
+}
+
+#pic {
+    background-image: url(/images/face.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px; height: 300px; 
+    background-color:#fff8eb; 
+    border-radius: 50%;
+    margin-left:90px;
+    margin-top:50px;
+    box-shadow: 5px 5px 5px 5px gray ;
+}
+
+#self {
+    width:480px; height:380px;
+    /* background-color:black; */
+    font-size:20px;
+}
+
+.info_wrap {
+    display:flex;
+    gap: 65px;
+    justify-content: center;
+    padding-top:80px;
+}
+
+.info_wrap .text{
+    margin-bottom: 20px;
+}
+
+.title_right {
+    width: 720px; height: 730px;
+    /* background-color: blue; */
+}
+
+.education {
+    height:220px;
+}
+
+.education .edu {
+    font-size: 30px;
+    font-family: 'Playball', cursive;
+    color:#456268;
+}
+
+.license {
+    height:310px;
+}
+
+.license .lic {
+    color:#456268;
+    font-size: 30px;
+    font-family: 'Playball', cursive;
+}
+
+.skill {
+    height:200px;
+}
+
+.skill .ski {
+    color:#456268;
+    font-size: 30px;
+    font-family: 'Playball', cursive;
+}
+
+.portfolio {
+    width:100%; height:1080px;
+}
+
+.contact {
+    width:100%; height:1080px;
+}
+
+.contact_card {
+    width:1200px; height:850px;
+    background-color:#f5f5f5;
+    top: 100px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    box-shadow: 10px 10px 10px 10px gray ;
+}
+
+.title_contact {
+    width: 100%; height: 120px; 
+    /* background-color: aqua; */
+}
+
+.title_contact .contact_name {
+    font-size: 58px;
+    font-family: 'Playball', cursive;
+    text-align: center;
+    padding-left: 30px;
+    line-height: 120px;
+    color:#456268;
+}
+
+.title4 {
+    width: 100%; height: 730px; 
+    display: flex;
+}
+
+.info_left {
+    width:380px; height:730px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap : 80px;
+    padding-top:100px;
+}
+
+.info_right{
+    width:820px; height:730px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap : 80px; */
+    padding-top:100px;
+}
+
+.phone_pic {
+    width:70px;
+    height:110px;
+    margin-left:90px;
+    margin-bottom:20px;
+}
+
+.message_pic {
+    width:81px;
+    height:60px;
+    margin-left:85px;
+    margin-bottom:20px;
+}
+
+.git_pic {
+    width:81px;
+    height:80px;
+    cursor:pointer;
+}
+
+.git_pic:hover {
+    opacity: 0.5;
+    transition: 0.2s;
+}
+
+input {
+    width:330px;
+    height:65px;
+    border-radius: 20px;
+    background-color:#e2e2e2;
+    outline: 0;
+    border:0;
+    font-size: 20px;
+    padding-left: 15px;
+    font-family:'GmarketSansMedium';
+}
+
+input::placeholder{
+    color:#456268;
+}
+
+textarea {
+    width:710px;
+    height:310px;
+    border-radius: 20px;
+    background-color:#e2e2e2;
+    outline: 0;
+    border:0;
+    font-size: 20px;
+    padding: 15px;
+    font-family:'GmarketSansMedium';
+}
+
+/* textarea:hover {
+    height: 1800px;
+    transition: 1s;
+} */
+
+textarea::placeholder{
+    color:#456268;
+}
+/* 
+.send_email {
+    width: 330px;
+    height:65px;
+    border-radius: 20px;
+} */
+
+
+
+
+/* .info_wrap .a .text:last-child{
+    color: red;
+} */
