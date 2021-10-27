@@ -12,10 +12,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playball&family=Roboto:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
-
 </head>
 <body>
-    <div id="header">
+    <header>
         <div id="nav">
             <div>
                 <a href="#">Home</a>
@@ -30,16 +29,16 @@
                 <a href="#">Contact</a>
             </div>
         </div>
-    </div>
+    </header>
     <div class="home">
         <div class="title">
-            <span class="name">Shin June Ho</span>
-            <span class="welcome">Welcome To My Playground</span>
-            <span class="job">Web-Developer</span>
+            <h1 class="name">Shin June Ho</h1>
+            <h1 class="welcome">Welcome To My Playground</h1>
+            <h1 class="job">Web-Developer</h1>
         </div>
     </div>
-    <div class="main">
-        <div class="about">
+    <main>
+        <section class="about">
             <div class="card">
                 <div class="title_about">
                     <span class="about_name">About</span>
@@ -66,19 +65,15 @@
                     </div>
                     <div class="title_right">
                         <div class="education">
-                            <div class="edu">EDUCATION</div> 
-                            <div class="wrap">
-                                <div class="cir"></div><div class="text">원광대학교 컴퓨터소프트웨어공학 전공</div> 
-                            </div>
-                            <div class="wrap" style="margin-bottom: 10px;">
-                                <div class="cir"></div><div class="text">SBS아카데미 컴퓨터아트학원</div>
-                            </div>
-                            <div class="wrap">
-                                <div class="cir" style="opacity: 0;"></div><div class="text">웹 퍼블리셔 양성과정 이수</div>
-                            </div>
+                            <h4 class="edu">EDUCATION</h4> 
+                            <ul>
+                                <span class="cir"></span><li class="text">원광대학교 컴퓨터소프트웨어공학 전공</li> 
+                                <li class="text">SBS아카데미 컴퓨터아트학원</li>
+                                <li class="text">웹 퍼블리셔 양성과정 이수</li>
+                            </ul>
                         </div>
                         <div class="license">
-                            <div class="lic">LICENSE</div> 
+                            <h4 class="lic">LICENSE</h4> 
                             <div class="wrap">
                                 <div class="cir"></div><div class="text">컴퓨터활용능력 2급</div> 
                             </div>
@@ -96,7 +91,7 @@
                             </div>
                         </div>
                         <div class="skill">
-                            <div class="ski">SKILL</div> 
+                            <h4 class="ski">SKILL</h4> 
                             <div class="wrap" style="gap:40px">
                                 <img src="images/html_03.jpg" alt="html로고">
                                 <img src="images/css_03.jpg" alt="css로고">
@@ -109,9 +104,29 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="portfolio"></div>
-        <div class="contact">
+        </section>
+        <section class="portfolio">
+            <div class="bind">
+                <div class="tag">
+                    <div class="tag_in">
+                        <div class="screen">
+                            <a href="#"><img class="stockx" src="images/stockx.JPG" alt="stockx메인"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tag">
+                    <div class="tag_in">
+                        <div class="screen"></div>
+                    </div>
+                </div>
+                <div class="tag">
+                    <div class="tag_in">
+                        <div class="screen"></div>
+                    </div>
+                </div>
+            </div>
+        </section> 
+        <section class="contact">
             <div class="contact_card">
                 <div class="title_contact">
                     <span class="contact_name">Contact</span>
@@ -141,7 +156,10 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
+        </section>
+    </main>
+    <footer>
+        
+    </footer>
 </body>
 </html>
